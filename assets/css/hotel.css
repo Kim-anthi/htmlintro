@@ -1,0 +1,67 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    background-color: aqua;
+    overflow: hidden;
+
+}
+ul {
+    li {
+        float: left;
+        padding-right: 20px;
+        color: black;
+        display: block;
+        text-decoration: none;
+        font-family: "Arial Black";
+    }
+}
+h1{
+    color: #ff00f2;
+    text-align: center;
+    font-size: 50px;
+
+}
+p{
+    color: green;
+    font-family: "Arial Black";
+    font-size: 30px;
+    text-align: center;
+}
+
+body{
+    background-image: url("assets/images/kims.jpeg");
+    background-repeat: repeat;
+    background-size: contain;
+}
+ol{
+    li{
+        color: black;
+        text-align: center;
+        list-style: none;
+        font-size: 19px;
+    }
+}
+h2{
+    text-align: center;
+    font-size: 38px;
+    color: lime;
+}
+
+h3{
+    text-align: center;
+    font-size: 25px;
+
+}
+
+h4{
+    padding: 20px;
+}
+button{
+    color: red;
+    cursor: auto;
+    animation-timing-function: ease-in-out;
+    font-size: 20px;
+}

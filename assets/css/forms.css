@@ -1,0 +1,36 @@
+label{
+    color: #ff00f2;
+    font-size: 20px;
+    width: 90px;
+
+
+
+}
+h2{
+    font-size: 28px;
+    color: purple;
+    text-align: center;
+}
+button{
+    color: red;
+    padding: 10px;
+
+}
+input[type=text] {
+    font-size: 15px;
+}
+div{
+    text-align: center;
+    background-color: lawngreen;
+    padding: 40px;
+
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+input[type=date]:focus {
+    color: red;
+}
+l
+

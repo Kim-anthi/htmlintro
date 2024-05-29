@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="assets/css/forms.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Student Regform</title>
+</head>
+<body>
+
+<h2>Registration form</h2>
+<p>Please fill in this form to create an account.</p>
+<br>
+
+<div>
+
+    <form action="">
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" required placeholder="Enter First Name">
+    <br><br><br>
+    <label for="lname"><b>Last name:</b></label>
+    <input type="text" id="lname" required placeholder="Enter Last Name">
+    <br><br><br>
+    <label for="barua"><b>Email Address:</b></label>
+    <input type="email" id="barua" required placeholder="Enter Email Address">
+    <br><br><br>
+    <label for="pno"><b>Phone number:</b></label>
+    <input type="text" id="pno" required placeholder="Enter phone number">
+        <br><br><br>
+    <label for="Gender"><b>Gender:</b> </label>
+        <select name="Gender" id="Gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+
+        </select>
+        <br><br><br>
+    <label for="Course"><b>Course Taken:</b></label>
+        <select name="course" id="Course">
+        <option value="js">Javascript</option>
+        <option value="django">Django</option>
+        <option value="reactjs">Reactjs</option>
+        <option value="php">python</option>
+        <option value="Android">Android</option>
+            </select>
+        <br><br><br>
+        <label for="pic"><b>Upload Pic:</b></label>
+        <input type="file" id="pic"><br><br>
+    <label for="date"><b>Date of birth:</b></label>
+    <input type="date" id="date" required placeholder="Enter date">
+    <br><br><br>
+    <label for="pass"><b>Password:</b></label>
+    <input type="password" id="pass" required placeholder="Enter Password">
+    <br><br><br>
+        <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+    <button type="submit">Register</button>
+
+</form>
+
+</div>
+
+<div>
+    <p>Already have an account? <a href="#">Sign in</a>.</p>
+</div>
+
+</body>
+</html>

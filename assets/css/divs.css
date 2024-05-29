@@ -1,0 +1,28 @@
+.fruits{
+    border: 2px solid red;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    color: blue;
+}
+.Cars{
+    border: 2px solid black;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    color: aqua;
+}
+.cars{
+    border: 2px solid green;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    color: #ff00ea;
+}
+#school{
+    border: 2px solid green;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    color: #ff00ea;
+}
